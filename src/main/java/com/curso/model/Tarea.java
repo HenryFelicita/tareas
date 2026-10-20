@@ -20,9 +20,10 @@ public class Tarea {
     private String descripcion;
     private boolean completada;
 
-    public Tarea(String titulo, String descripcion) {
+    public Tarea(String titulo, String descripcion, boolean completada) {
         this.titulo = titulo;
         this.descripcion = descripcion;
+        this.completada = completada;
     }
 
     @Override
